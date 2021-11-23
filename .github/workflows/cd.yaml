@@ -33,7 +33,7 @@ jobs:
       - name: update k8s
         run:
           cd k8s
-          kustomize edit set image goapp=mcutulo/argocd-fullcycle:${{github.sha}}
+          kustomize edit set image goapp=mcutulo/argocd-fullcycle:${{ github.sha }}
           cat kustomization.yaml
 
       - name: commit
@@ -44,4 +44,3 @@ jobs:
 
       - name: push
         uses: ad-m/github-push-action@master
-        
