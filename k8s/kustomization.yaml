@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: mcutulo/argocd-fullcycle
-  newTag: 296124bd7450f6de95987aa84368ef2d2ba6191e
+  newTag: 645d96776107a16f0308874a8a516906d2b25a62
